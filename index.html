@@ -17,8 +17,17 @@
     </head>
     <body>
         <div id="principal" class="container">
-            <h1>Acenda a lâmpada</h1>
-            <img src="/images/lampada_acessa.jpg" alt="lampada" />
+            <h1>Acenda a lâmpada!</h1>
+            <img
+                id="lampada"
+                src="/images/lampada_apagada.jpg"
+                alt="lampada"
+                onmousemove="acendeLampada()"
+                onmouseleave="apagaLampada()"
+                onclick="quebraLampada()"
+            />
         </div>
+
+        <script src="/index.js"></script>
     </body>
 </html>

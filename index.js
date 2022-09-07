@@ -32,6 +32,9 @@ function quebraLampada() {
         button.innerText = "Restaurar Lâmpada!"
         button.onclick = restaurarLampada
         button.id = 'restaurar'
+
+        //exemplo querySelector
+        // const divPrincipal = document.querySelector('#principal')
         
         const divPrincipal = document.getElementById('principal')
         divPrincipal.appendChild(button)

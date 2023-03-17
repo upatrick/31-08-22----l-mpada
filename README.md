@@ -1,0 +1,3 @@
+# lâmpada
+
+Exercício javascript.
